@@ -1,10 +1,10 @@
 export const experiencias =[
     {
         id:1,
-        imagen:'/reactjs.png',
-        titulo:'APP1',
+        imagen:'/todo.png',
+        titulo:'Aplicación TODO List',
         anio: '2022',
-        institucion: 'TODO List'
+        institucion: 'Tailwind, React Js'
     },
     {
         id:2,
@@ -22,10 +22,10 @@ export const experiencias =[
     },
     {
         id:4,
-        imagen:'/css.png',
-        titulo:'App4',
+        imagen:'/figma.png',
+        titulo:'Diseño en Figma',
         anio: '2022',
-        institucion: 'Landing Page'
+        institucion: 'Figma'
     },
  
 ]
