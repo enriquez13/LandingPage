@@ -1,6 +1,6 @@
 export const Perfil = () => {
     return (
-        <div id="perfil" className="w-full flex bg-gradient-to-b from-[#192E40] to-[#7AACBF] md:h-screen">
+        <div id="perfil" className="w-full flex md:h-screen">
             <div className="min-w-[120px] md:w-[600px] h-screen bg-[#192E40] text-center">
                 <h2 className="text-center pt-56 pb-10 text-sm md:text-5xl tracking-wider  text-[#7AACBF]">Perfil</h2>
                 <h2 className="text-center textsm md:text-5xl tracking-wider text-[#7AACBF]">profesonal</h2>

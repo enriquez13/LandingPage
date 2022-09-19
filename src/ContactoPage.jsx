@@ -1,6 +1,6 @@
 export const Contacto = () => {
     return (
-        <div id="contacto" className='pb-5  md:px-20 pt-10 justify-center  bg-gradient-to-b from-[#192E40] to-[#7AACBF]  md:h-screen' >
+        <div id="contacto" className='pb-5  md:px-20 pt-10 justify-center   md:h-screen' >
             <h2 className='md:text-2xl mb-5 text-center text-blue-100'>Contactos</h2>
 
             <section  className="mx-5 md:mx-96 border border-[#192E40] rounded-lg">
