@@ -42,8 +42,8 @@ function App() {
             <Experiencia
               imagen={experiencia.imagen}
               titulo={experiencia.titulo}
-              descripcion={experiencia.anio}
               institucion={experiencia.institucion}
+              link={experiencia.link}
             />
           ))}
         </div>

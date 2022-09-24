@@ -9,7 +9,7 @@ export const Header = () => {
             <div className="shadown-md w-full fixed top-0 left-0">
                 <div className='md:flex items-center justify-center bg-[#192E40] py-4 md:px-10 px-7'>
                     <div className="text-2xl left-0 flex items-center text-gray-400">
-                        Trabajemos juntos
+                        Alejandro Enríquez 
                     </div>   
                     <div onClick={()=> setOpen(!open)} className="text-3xl absolute right-8 top-4 text-[#7AACBF] cursor-pointer md:hidden">
                     <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
