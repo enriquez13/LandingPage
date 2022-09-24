@@ -5,7 +5,7 @@ export const Portafolio = ({nombre, descripcion, imagen}) => {
         
 
 
-<div className="justify-self-center mb-5 md:mx-5 mt-2 w-5/6  bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#192E40] dark:border-gray-700">
+<div className="justify-self-center mb-5 md:mx-5 mt-2 w-5/6  bg-white rounded-lg border border-gray-200 shadow-md dark:bg-[#3B758C] dark:border-gray-700">
 
 <a href="#">
     <img className="md:mx-auto pt-2 md:pt-10 px-2 w-full md:max-w-[250px] rounded-t-lg " src={imagen} alt={imagen} />
