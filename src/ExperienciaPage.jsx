@@ -10,7 +10,7 @@ export const Experiencia = ({titulo, institucion, imagen, link}) => {
 
             <div className=" text-center">
                 <a href={link}>
-                    <h5 className="pt-2 text-xs md:text-xl font-bold tracking-tight text-gray-900 dark:text-white">{titulo}</h5>
+                    <h5 className="pt-2 text-xs md:text-xl font-bold tracking-tight text-[#C4EAF2]">{titulo}</h5>
                 </a>
                 <p className=" mb-2 md:mb-3 text-xs md:text-xl font-normal text-gray-700 dark:text-gray-400">{institucion}</p>
             </div>

@@ -16,28 +16,28 @@ export const estudios =[
     {
         id:3,
         imagen:'/html.png',
-        titulo:'HTML',
+        titulo:'Curso de HTML',
         anio: '2022',
         institucion: 'Youtube'
     },
     {
         id:4,
         imagen:'/css.png',
-        titulo:'CSS',
+        titulo:'Curso de CSS',
         anio: '2022',
         institucion: 'Youtube'
     },
     {
         id:5,
         imagen:'/js.png',
-        titulo:'Javascript Junior',
+        titulo:'Curso de Javascript',
         anio: '2022',
         institucion: 'Youtube'
     },
     {
         id:6,
         imagen:'/phpymysql.png',
-        titulo:'PHP Y MySQL',
+        titulo:'Curso de PHP Y MySQL',
         anio: '2022',
         institucion: 'Youtube'
     },

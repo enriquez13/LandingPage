@@ -21,7 +21,7 @@ function App() {
       <Perfil />
 
       <div id="estudios" className='pb-5  md:px-20 pt-10 justify-center    md:h-screen'>
-        <h2 className='md:text-3xl mb-5 pt-10 text-center tracking-wider text-blue-100'>Estudios</h2>
+        <h2 className='md:text-3xl mb-5 pt-10 text-center tracking-wider text-[#7AACBF]'>Estudios</h2>
         <div className='grid grid-cols-2 md:grid-cols-3'>
           {estudios.map((estudio) => (
             <Estudios
@@ -35,8 +35,8 @@ function App() {
         </div>
       </div>
 
-      <div id="experiencia" className='pb-5  md:px-20 pt-10 justify-center  md:h-screen'>
-        <h2 className='md:text-3xl mb-5 pt-10 text-center tracking-wider text-blue-100'>Experiencia</h2>
+      <div id="experiencia" className='pb-5  md:px-20 pt-10 justify-center '>
+        <h2 className='md:text-3xl mb-5 pt-10 text-center tracking-wider text-[#C4EAF2]'>Experiencia</h2>
         <div className='grid grid-cols-2 md:grid-cols-3'>
           {experiencias.map((experiencia) => (
             <Experiencia
@@ -50,7 +50,7 @@ function App() {
       </div>
 
       <div id="portafolio" className='pb-5  md:px-20 pt-10 justify-center  '>
-      <h2 className='md:text-3xl mb-5 pt-10 text-center tracking-wider text-blue-100'>Estudios</h2>
+      <h2 className='md:text-3xl mb-5 pt-10 text-center tracking-wider text-[#192E40]'>Portafolio</h2>
         <div className='grid grid-cols-2 md:grid-cols-3'>
         {portafolios.map((portafolio) => (
           <Portafolio  
@@ -58,6 +58,7 @@ function App() {
             imagen={portafolio.imagen}
             nombre={portafolio.nombre}
             descripcion={portafolio.descripcion}
+            categoria={portafolio.categoria}
             
           />
         ))}

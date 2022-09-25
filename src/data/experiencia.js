@@ -3,7 +3,7 @@ export const experiencias =[
         id:7,
         imagen:'/todo.png',
         titulo:'Aplicación TODO List',
-        institucion: 'Tailwind, React Js',
+        institucion: 'React Js, Tailwind',
         link: 'https://github.com/enriquez13/Aplicacion-TODO'
     },
     {
@@ -17,7 +17,7 @@ export const experiencias =[
         id:9,
         imagen:'/consumoapiheroes.png',
         titulo:'Consumo Api Héroes',
-        institucion: 'Bootstrap, React JS, yarn',
+        institucion: 'React JS, Bootstrap',
         link: 'https://github.com/enriquez13/consumo-api-heroes'
     },
     {
@@ -38,7 +38,14 @@ export const experiencias =[
         id:12,
         imagen:'/zorobabel.png',
         titulo:'E-commerce',
-        institucion: 'ZOROBABEL',
+        institucion: 'Carrtio de compras, navegación',
+        link: ''
+    },
+    {
+        id:13,
+        imagen:'/landingpage.png',
+        titulo:'Landingpage',
+        institucion: 'React JS, Tailwind',
         link: ''
     },
  
